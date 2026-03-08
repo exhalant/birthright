@@ -19,5 +19,5 @@ function sequenceOfLetters(input: string): void {
     console.log(count);
 }
 
-sequenceOfLetters('2 3 4');
-sequenceOfLetters('3 1 1 1');
+sequenceOfLetters('2 3 4');//3
+sequenceOfLetters('3 1 1 1');//2
