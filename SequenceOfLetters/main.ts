@@ -10,7 +10,7 @@ function sequenceOfLetters(input: string): void {
     for (let i: number = 0; i < numberArray.length; i++) {
         result[alphaviteCopy[i]] = numberArray[i];
     }
-    for (var h = 0; h < numberArray.length - 1; h++) {
+    for (let h = 0; h < numberArray.length - 1; h++) {
         count += Math.min(
             result[alphaviteCopy[h]],
             result[alphaviteCopy[h + 1]],
